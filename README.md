@@ -2,9 +2,11 @@
 
 My personal portfolio website showcasing my projects, skills, and experience.
 
+
 ## 🚀 Live Website
 
 https://portfolio-nine-puce-17.vercel.app/
+
 
 ## 🛠️ Built With
 
@@ -13,12 +15,14 @@ https://portfolio-nine-puce-17.vercel.app/
 - Vite
 - Tailwind CSS
 
+
 ## ✨ Features
 
 - Responsive design
 - Project showcase
 - Skills and experience sections
 - Modern UI with animations
+
 
 ## 📌 Development
 
