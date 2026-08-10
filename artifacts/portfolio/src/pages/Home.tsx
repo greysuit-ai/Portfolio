@@ -478,15 +478,16 @@ export default function Home() {
                 </div>
                 <span className="text-xs font-mono text-muted-foreground border border-border px-3 py-1 rounded flex items-center gap-2">
                   <a
-  href="https://github.com/greysuit-ai/RevZone"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="text-xs font-mono text-muted-foreground border border-border px-3 py-1 rounded flex items-center gap-2 hover:text-primary transition-colors"
->
-  <span className="w-2 h-2 rounded-full bg-yellow-500/80 inline-block"></span>
-  View on GitHub
-</a>
-
+                    href="https://github.com/greysuit-ai/RevZone"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-testid="link-project-revzone-github"
+                    className="inline-flex items-center gap-2 text-xs font-mono px-4 py-2 border border-border rounded hover:border-primary/50 hover:text-primary text-muted-foreground transition-colors group"
+                  >
+                     <Github className="w-3.5 h-3.5 group-hover:text-primary" />
+                        View on GitHub
+                    <ExternalLink className="w-3 h-3 opacity-50" />
+                  </a>
 
                 </span>
               </div>
