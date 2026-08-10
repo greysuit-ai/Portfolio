@@ -237,7 +237,7 @@ export default function Home() {
               <div className="flex gap-3 flex-wrap justify-end">
                 {[
                   { label: "Python", color: "text-blue-400 border-blue-400/30 bg-blue-400/5" },
-                  { label: "38 WPM", color: "text-green-400 border-green-400/30 bg-green-400/5" },
+                  { label: "45 WPM", color: "text-green-400 border-green-400/30 bg-green-400/5" },
                   { label: "Game Dev", color: "text-primary border-primary/30 bg-primary/5" },
                 ].map((b) => (
                   <span key={b.label} className={`text-xs font-mono px-3 py-1.5 rounded-full border ${b.color}`}>
