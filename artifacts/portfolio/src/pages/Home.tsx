@@ -268,7 +268,7 @@ export default function Home() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1, duration: 1 }}
-            className="absolute bottom-5 left-4 text-muted-foreground hover:text-primary transition-colors flex items-center gap-2 font-mono text-xs"
+            className="absolute bottom-3 left-4 text-muted-foreground hover:text-primary transition-colors flex items-center gap-2 font-mono text-xs"
           >
             <span>SCROLL_TO_INITIALIZE</span>
             <ChevronDown className="w-4 h-4 animate-bounce" />
