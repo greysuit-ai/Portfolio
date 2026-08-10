@@ -477,8 +477,17 @@ export default function Home() {
                   ))}
                 </div>
                 <span className="text-xs font-mono text-muted-foreground border border-border px-3 py-1 rounded flex items-center gap-2">
-                  <span className="w-2 h-2 rounded-full bg-yellow-500/80 inline-block"></span>
-                  Local — GitHub link coming soon
+                  <a
+  href="https://github.com/greysuit-ai/RevZone"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-xs font-mono text-muted-foreground border border-border px-3 py-1 rounded flex items-center gap-2 hover:text-primary transition-colors"
+>
+  <span className="w-2 h-2 rounded-full bg-yellow-500/80 inline-block"></span>
+  View on GitHub
+</a>
+
+
                 </span>
               </div>
             </div>
