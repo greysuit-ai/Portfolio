@@ -146,7 +146,7 @@ export default function Home() {
                 <span className="px-3 py-1 bg-primary/10 text-primary text-xs font-mono rounded border border-primary/20">
                   STATUS: ONLINE
                 </span>
-                <span className="text-muted-foreground font-mono text-xs">AGE: 17</span>
+                
                 <span className="text-muted-foreground font-mono text-xs flex items-center gap-1">
                   <span className="text-primary">📍</span> UAE
                 </span>
@@ -186,7 +186,7 @@ export default function Home() {
 
               <div className="font-mono text-base md:text-xl text-muted-foreground mb-8 flex items-center gap-2">
                 <Terminal className="w-5 h-5 text-primary shrink-0" />
-                <span>Aspiring Game Developer & Software Engineer</span>
+                <span>Aspiring Software Developer</span>
                 <span className="inline-block w-3 h-6 bg-primary animate-pulse ml-1"></span>
               </div>
 
@@ -268,7 +268,7 @@ export default function Home() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1, duration: 1 }}
-            className="absolute bottom-10 left-4 text-muted-foreground hover:text-primary transition-colors flex items-center gap-2 font-mono text-xs"
+            className="absolute bottom-5 left-4 text-muted-foreground hover:text-primary transition-colors flex items-center gap-2 font-mono text-xs"
           >
             <span>SCROLL_TO_INITIALIZE</span>
             <ChevronDown className="w-4 h-4 animate-bounce" />
@@ -288,7 +288,7 @@ export default function Home() {
                 {"<About_Me />"}
               </h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                I'm Khadija, a 17-year-old high school graduate with a relentless drive for
+                I'm Khadija, a high school graduate with a relentless drive for
                 technology and competition. Whether I'm debugging logic, designing interactive
                 experiences, or running plays on the basketball court, I play to win.
               </p>
@@ -300,7 +300,7 @@ export default function Home() {
 
               <div className="grid grid-cols-2 gap-4 mt-8">
                 {[
-                  { label: "Typing Speed", value: "38 WPM", icon: <Activity /> },
+                  { label: "Typing Speed", value: "45 WPM", icon: <Activity /> },
                   { label: "Accuracy", value: "97%", icon: <Target /> },
                   { label: "Current Level", value: "Lvl 17", icon: <Zap /> },
                   { label: "Class", value: "Dev/Athlete", icon: <Crosshair /> },
@@ -360,10 +360,10 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { name: "Python", icon: <Code2 />, desc: "Logic & Automation" },
-              { name: "HTML/CSS", icon: <Globe />, desc: "Structure & Style" },
-              { name: "SQL", icon: <Database />, desc: "Data Management" },
+              { name: "SQL", icon: <Globe />, desc: "Structure & Style" },
+              { name: "HTML/CSS", icon: <Database />, desc: "Data Management" },
               {
-                name: "Web Design",
+                name: "JavaScript",
                 icon: <Cpu />,
                 desc: "Currently Learning",
                 learning: true,
